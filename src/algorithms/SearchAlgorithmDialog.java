@@ -98,7 +98,7 @@ public class SearchAlgorithmDialog extends javax.swing.JDialog {
         treePanel.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createTitledBorder("Δέντρο αναζήτησης")));
         treePanel.setLayout(new java.awt.CardLayout());
 
-        terminationCriteriaPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Κριτίριο τερματισμού"));
+        terminationCriteriaPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Κριτήριο τερματισμού"));
 
         buttonGroup1.add(targetToOpenRadio);
         targetToOpenRadio.setText("Στόχος στις ανοικτές");
@@ -224,6 +224,8 @@ public class SearchAlgorithmDialog extends javax.swing.JDialog {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 197, Short.MAX_VALUE)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
+
+        terminationCriteriaPanel.getAccessibleContext().setAccessibleName("Κριτήριο τερματισμού");
 
         logPane.setBorder(javax.swing.BorderFactory.createTitledBorder("Καταγραφή αναζήτησης"));
 
